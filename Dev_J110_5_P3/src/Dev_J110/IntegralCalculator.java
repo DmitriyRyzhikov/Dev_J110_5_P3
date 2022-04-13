@@ -3,7 +3,7 @@ package Dev_J110;
 
 import java.util.function.BiFunction;
 
-//Это класс, который умеет вычислять определенный интеграл дыумерной функции
+//Это класс, который умеет вычислять определенный интеграл двумерной функции
 public class IntegralCalculator { 
     
     public static double calculator(BiFunction<Double, Double, Double> bi, double xS, double xF, double yS, double yF, int segments) {
