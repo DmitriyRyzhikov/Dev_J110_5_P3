@@ -25,7 +25,7 @@ public class IntegralCalculator {
                    }
                    currentX = xS;
                    currentY += 2*deltaY;
-                   ///System.out.println();
+                   //System.out.println();
                }           
                 //System.out.printf("S прямоугольника =%.5f%n", cellSquare);                
                 return integral;   }                      

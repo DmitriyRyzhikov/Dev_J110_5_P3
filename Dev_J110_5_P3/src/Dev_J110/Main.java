@@ -16,9 +16,8 @@ public class Main {
     double mnogoXy = IntegralCalculator.calculator(new BiFunction<Double, Double, Double>() {
         @Override
         public Double apply(Double x, Double y) {
-              return (Math.pow(x, 2) + x) * (2 * y + 1);
-        }
-    }, 3, 4, 7, 10, 100);
+              return (Math.pow(x, 2) + x) * (2 * y + 1); }
+              }, 3, 4, 7, 10, 100);
     
     /*Вызов метода вычисления интеграла с использованием реализации функционального интерфейса
       BiFunction через ссылку на метод экземпляра.*/
